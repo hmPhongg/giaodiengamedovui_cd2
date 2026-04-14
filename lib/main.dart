@@ -254,10 +254,10 @@ class _SettingsPageState extends State<SettingsPage> {
                                 ),
                                 child: Slider(
                                   value: volumeValue,
-                                  min: 0.0,        // ✅ FIX: Thêm min
-                                  max: 100.0,      // ✅ FIX: Thêm max
-                                  divisions: 100,  // ✅ FIX: Chia 100 nấc
-                                  label: '${volumeValue.round()}%', // ✅ Hiển thị %
+                                  min: 0.0,        
+                                  max: 100.0,      
+                                  divisions: 100,  
+                                  label: '${volumeValue.round()}%', 
                                   onChanged: (value) {
                                     setState(() {
                                       volumeValue = value;
